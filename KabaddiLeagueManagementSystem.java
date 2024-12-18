@@ -194,7 +194,7 @@ public class KabaddiLeagueManagementSystem {
             boolean exit = false;
 
             while (!exit) {
-                System.out.println("\n🏐 --- Kabaddi League Menu --- 🏐");
+                System.out.println("\n--- Kabaddi League Menu ---");
                 System.out.println("1. Display Team Info");
                 System.out.println("2. Schedule Matches");
                 System.out.println("3. Display Winner");
@@ -260,7 +260,7 @@ public class KabaddiLeagueManagementSystem {
                         if (team3.getWins() > winner.getWins()) winner = team3;
                         if (team4.getWins() > winner.getWins()) winner = team4;
 
-                        System.out.println("\n🏆 The Champion Team is: " + winner.name + " with " + winner.getWins() + " wins!");
+                        System.out.println("\nThe Champion Team is: " + winner.name + " with " + winner.getWins() + " wins!");
                         break;
 
                     case 4:
