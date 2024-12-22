@@ -152,7 +152,7 @@ public class KabaddiLeagueManagementSystem {
 
         try {
             // Creating teams
-            Team team1 = new Team("Dabang Delhi", 7);
+            Team team1 = new Team("Dabang Delhi", 8);
             Team team2 = new Team("U Mumba", 7);
             Team team3 = new Team("Patna Pirates", 7);
             Team team4 = new Team("Bengal Warriors", 7);
